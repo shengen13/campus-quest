@@ -1,14 +1,15 @@
+# Node
 node_modules/
 dist/
+
+# Environment files
 .env
 .env.*
 !.env.example
-__pycache__/
-*.pyc
-firebase-service-account*.json
-service-account*.json
-*service-account*.json
-*firebase-adminsdk*.json
+backend/.env
+backend/.env.*
+!backend/.env.example
+
 # Python virtual environment
 backend/venv/
 venv/
@@ -16,6 +17,14 @@ venv/
 
 # Python cache
 __pycache__/
+*.pyc
 *.py[cod]
 
+# Firebase service account credentials
+firebase-service-account*.json
+service-account*.json
+*service-account*.json
+*firebase-adminsdk*.json
+
+# User data
 backend/data/users.json
