@@ -1,0 +1,32 @@
+[
+  {
+    "id": "first-quest",
+    "title": "FIRST QUEST",
+    "description": "Complete your first Campus Quest.",
+    "category": "Milestone",
+    "icon": "flag",
+    "rarity": "Common",
+    "requirementType": "solvedCount",
+    "requirementValue": 1
+  },
+  {
+    "id": "logic-master",
+    "title": "LOGIC MASTER",
+    "description": "Build a strong record in logic challenges.",
+    "category": "Logic",
+    "icon": "psychology",
+    "rarity": "Uncommon",
+    "requirementType": "solvedCount",
+    "requirementValue": 5
+  },
+  {
+    "id": "xp-hunter",
+    "title": "XP HUNTER",
+    "description": "Earn 1000 XP through completed quests.",
+    "category": "XP",
+    "icon": "bolt",
+    "rarity": "Rare",
+    "requirementType": "xp",
+    "requirementValue": 1000
+  }
+]

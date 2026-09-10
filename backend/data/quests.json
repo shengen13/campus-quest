@@ -1,0 +1,142 @@
+[
+  {
+    "id": "logic-grid-01",
+    "title": "The Missing Lecture Key",
+    "course": "LOGIC-101",
+    "category": "logic",
+    "categoryLabel": "LOGIC",
+    "rank": "BEGINNER",
+    "xp": 100,
+    "estTime": "5 MIN",
+    "tag": "DEDUCTION",
+    "description": "Use the clues to identify the student who has the missing lecture key.",
+    "problemStatement": "Four students attended four different labs. The key belongs to the student who attended neither the coding lab nor the robotics lab. Which student is it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aarav"
+      },
+      {
+        "id": "B",
+        "text": "Diya"
+      },
+      {
+        "id": "C",
+        "text": "Kabir"
+      },
+      {
+        "id": "D",
+        "text": "Meera"
+      }
+    ],
+    "correctOption": "C",
+    "hint": "Eliminate the students connected to the coding and robotics labs.",
+    "status": "available",
+    "completed": false
+  },
+  {
+    "id": "coding-array-01",
+    "title": "Array Signal Decoder",
+    "course": "CS-102",
+    "category": "coding",
+    "categoryLabel": "CODING",
+    "rank": "BEGINNER",
+    "xp": 150,
+    "estTime": "8 MIN",
+    "tag": "PYTHON // ARRAYS",
+    "description": "Identify the output produced by a short array transformation.",
+    "problemStatement": "A Python list contains [2, 4, 6, 8]. If every element is multiplied by 2, what is the resulting list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "[4, 8, 12, 16]"
+      },
+      {
+        "id": "B",
+        "text": "[2, 4, 6, 8, 2]"
+      },
+      {
+        "id": "C",
+        "text": "[1, 2, 3, 4]"
+      },
+      {
+        "id": "D",
+        "text": "[8, 16, 24, 32]"
+      }
+    ],
+    "correctOption": "A",
+    "hint": "Multiply each original element by two.",
+    "status": "available",
+    "completed": false
+  },
+  {
+    "id": "memory-sequence-01",
+    "title": "Campus Memory Sprint",
+    "course": "MEM-110",
+    "category": "memory",
+    "categoryLabel": "MEMORY",
+    "rank": "BEGINNER",
+    "xp": 80,
+    "estTime": "4 MIN",
+    "tag": "RECALL",
+    "description": "Train short-term recall with a sequence of campus symbols.",
+    "problemStatement": "Remember the sequence shown in the clue: BOOK → STAR → TREE → CLOCK. Which symbol appears third?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BOOK"
+      },
+      {
+        "id": "B",
+        "text": "STAR"
+      },
+      {
+        "id": "C",
+        "text": "TREE"
+      },
+      {
+        "id": "D",
+        "text": "CLOCK"
+      }
+    ],
+    "correctOption": "C",
+    "hint": "Count from the beginning of the sequence.",
+    "status": "available",
+    "completed": false
+  },
+  {
+    "id": "problem-budget-01",
+    "title": "The Student Event Budget",
+    "course": "APT-120",
+    "category": "problem",
+    "categoryLabel": "PROBLEM SOLVING",
+    "rank": "INTERMEDIATE",
+    "xp": 180,
+    "estTime": "7 MIN",
+    "tag": "ARITHMETIC // PLANNING",
+    "description": "Make the best decision from a constrained student event budget.",
+    "problemStatement": "A club has ₹1,000. It spends ₹350 on printing and ₹250 on refreshments. How much remains?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹300"
+      },
+      {
+        "id": "B",
+        "text": "₹350"
+      },
+      {
+        "id": "C",
+        "text": "₹400"
+      },
+      {
+        "id": "D",
+        "text": "₹450"
+      }
+    ],
+    "correctOption": "C",
+    "hint": "Subtract both expenses from the starting budget.",
+    "status": "available",
+    "completed": false
+  }
+]
